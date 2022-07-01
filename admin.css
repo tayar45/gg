@@ -1,0 +1,49 @@
+/****menu****/
+body{
+  margin: 0;
+  /* background-color:#FFFFFF; */
+  font-family: 'Raleway', sans-serif;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: white;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 0 5px;
+  }
+  nav img{
+    width:70px;
+  }
+  .menu{
+  text-align:right;
+  }
+  .menu li{
+  color:black;
+  display:inline;
+  margin:0px 10px;
+  text-transform:uppercase;
+  position:relative;
+  }
+  .menu li::after {
+  content: '';
+  height:3px;
+  width:0;
+  background-color:#FFF100;
+  position:absolute;
+  left:0;
+  bottom:-6px;
+  transition:0.5s;
+  }
+  .menu li a{
+    text-decoration: none;
+    color: #171717;
+  }
+  .menu li:hover::after{
+    width:100%;
+  }
+  /*******partinput********/
+ .partAjouter{
+    margin-top: 100px;
+ }

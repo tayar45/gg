@@ -1,0 +1,169 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Style de menu*/
+body{
+  margin: 0;
+	background-color:#FFFFFF;
+	}
+	nav{
+	  display: flex;
+	  justify-content: space-between;
+	  background: white;
+	  height: 50px;
+	  position: fixed;
+	  width: 100%;
+	}
+	nav img{
+	  width:70px;
+	}
+	.menu{
+	text-align:right;
+	}
+	.menu li{
+	color:black;
+	display:inline;
+	margin:0px 10px;
+	text-transform:uppercase;
+	position:relative;
+	}
+	.menu li::after {
+	content: '';
+	height:3px;
+	width:0;
+	background-color:#FFF100;
+	position:absolute;
+	left:0;
+	bottom:-6px;
+	transition:0.5s;
+	}
+	.menu li a{
+	  text-decoration: none;
+	  color: #171717;
+	}
+	.menu li:hover::after{
+	width:100%;
+	}
+	
+	
+	
+	/**********1er Part**********/
+	.premierePart{
+	  background: #FFE400;
+	  width: 100%;
+	  height: 100%;
+	  overflow: hidden;
+	  display: flex;
+	  flex-wrap: wrap-reverse;
+	  justify-content: space-around;
+	  
+	  
+	}
+	.premierePart img{
+		margin-top: 100px;
+	  width: 550px;
+	  align-self: flex-end;
+	  box-sizing: border-box;
+	  
+	  
+	  
+	}
+	.premierePart div{
+		width: 500px;
+		margin-top: 100px;
+	  align-self: center;
+	  text-align: center;
+	}
+	.premierePart div	button{
+	color:#1BB0FF;
+	width:200px;
+	padding:15px 0;
+	text-align:center;
+	border-radius: 25px;
+	margin:20px 10px;
+	font-weight:bold;
+	border: 2px solid #1BB0FF;
+	background-color:transparent;
+	transition: .5s;
+	}
+	
+	.premierePart div button:hover{
+	color: white;
+	background-color:#1BB0FF;
+	}
+	.premierePart div h2{
+	  color: #1BB0FF;
+	  margin-bottom: 20px;
+	  font-size: 40px;
+	}
+		.premierePart div p{
+		  color: white;
+		  font-weight: bold;
+		  font-size: 25px;
+		 
+		}
+		
+		
+	/* ********2eme part********
+	.deuxiemePart{
+	  display: flex;
+	  justify-content: space-around;
+    padding-top: 100px;
+   
+
+	}
+	.deuxiemePart h1{
+	  font-family: cursive;
+	}
+	.deuxiemePart .sales{
+	  width: 200px;
+	  height: 200px;
+	  position: relative;
+	  overflow: hidden;
+	  border:1px solid #1BB0FF;
+	}
+	.deuxiemePart .sales div{
+	  background:  rgba(68, 68, 68, 0.5);
+	  
+	  color:  black;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;
+	  top:200px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  font-size: 30px;
+	  opacity: 0;
+	  transition: .7s;
+	}
+	.sales:hover div{
+	  top:0;
+  	opacity: 1
+	}
+	.sales:hover{
+	  filter: background  blur(4px);
+	}
+	
+	.deuxiemePart .sales div h1{
+	  -webkit-text-stroke: .2px black;
+	}
+	.sales:nth-child(1){
+	  background: url(1.jpg) ;
+	  background-size: cover;
+	  background-position: center;
+	 
+	}
+	.sales:nth-child(2){
+	  background: url(3.jpg) ;
+	  background-size: cover;
+	  background-position: center;
+	 
+	}
+	.sales:nth-child(3){
+	  background: url(2.jpg) ;
+	  background-size: cover;
+	  background-position: center;
+	 
+	} */
